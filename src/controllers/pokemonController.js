@@ -20,7 +20,7 @@ export const getHomePage = async (req, res) => {
     });
   } catch (error) {
     res.status(500).render('error', {
-      message: 'Failed to load Pokemon',
+      message: 'Failed to load Pookemon',
       error: error.message
     });
   }
